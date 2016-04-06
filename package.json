@@ -1,6 +1,6 @@
 {
   "name": "opsworks-instances",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List EC2 instances from an OpsWorks stack",
   "bin": "bin/opsworks-instances",
   "engines": {
