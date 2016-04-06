@@ -1,0 +1,35 @@
+{
+  "name": "opsworks-instances",
+  "version": "1.0.0",
+  "description": "List EC2 instances from an OpsWorks stack",
+  "bin": "bin/opsworks-instances",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "opsworks",
+    "instances"
+  ],
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "preferGlobal": true,
+  "repository": "falmp/opsworks-instances",
+  "author": "Francisco Lopes <chico.lopes@gmail.com>",
+  "homepage": "https://github.com/falmp/opsworks-instances",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.2.48",
+    "bluebird": "^3.3.4",
+    "cli-table2": "^0.2.0",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "glob-to-regexp": "^0.1.0",
+    "lodash": "^4.6.1"
+  }
+}
