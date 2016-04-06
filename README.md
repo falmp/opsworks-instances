@@ -32,7 +32,6 @@ $ opsworks-instances --help
     -h, --help                output usage information
     -V, --version             output the version number
     -p, --profile [default]   the credential profile to use to authenticate on AWS
-    -r, --region [us-east-1]  the region to search the OpsWorks instances
 ```
 
 ## Authentication
