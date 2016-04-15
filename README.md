@@ -17,7 +17,7 @@ This will install `opsworks-instances` and all required dependencies. OpsWorks I
 Execute `opsworks-instances` passing an OpsWorks stack name glob:
 
 ```bash
-$ opsworks-instances server
+$ opsworks-instances --all server
 ┌─────────┬─────────┬─────────┬──────────┬────────────┬────────────────┐
 │ Stack   │ Layer   │ Status  │ Hostname │ Instance   │ Private IP     │
 ├─────────┼─────────┼─────────┼──────────┼────────────┼────────────────┤
@@ -42,9 +42,10 @@ $ opsworks-instances --help
 
   Options:
 
-    -h, --help                output usage information
-    -V, --version             output the version number
-    -p, --profile [default]   the credential profile to use to authenticate on AWS
+    -h, --help               output usage information
+    -V, --version            output the version number
+    -a, --all                list all instances besides those with online status
+    -p, --profile [default]  the credential profile to use to authenticate on AWS
 ```
 
 ## Authentication

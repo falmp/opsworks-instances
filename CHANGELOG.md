@@ -1,3 +1,7 @@
+# 1.1.0 - 2016-04-15
+
+* [CHANGED] Changed output to only list online instances (offline instances can be displayed using the -a flag)
+
 # 1.0.2 - 2016-04-06
 
 * [FIXED] Fixed the usage example on README
